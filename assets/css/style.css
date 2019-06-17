@@ -1,0 +1,87 @@
+header {
+    background-color: #fff;
+    color: #000;
+    box-shadow: rgba(0,0,0,.04) 0 2px 6px 0;
+}
+header .top-nav, .second-nav {
+    padding: 4px 0px;
+    border-width: 0 0 1px;
+    border-color: #f3f3f3;
+    border-style: solid;
+}
+header .top-nav .nav-icon {
+    color: #000;
+    padding: 0px 8px;
+}
+header .top-nav .nav-icon:hover {
+    text-decoration: none;
+}
+.second-nav .navbar {
+    padding: 0;
+}
+.second-nav .navbar .nav-item {
+    padding: 0px 8px;
+}
+.btn-purple {
+    color: #fff;
+    background-color: #605ca8;
+    border-color: #605ca8;
+}
+.btn-purple:hover {
+    color: #605ca8;
+    background-color: transparent;
+    background-image: none;
+    border-color: #605ca8;
+}
+.btn-outline-purple {
+    color: #605ca8;
+    background-color: transparent;
+    background-image: none;
+    border-color: #605ca8;
+}
+.btn-outline-purple:hover {
+    color: #fff;
+    background-color: #605ca8;
+    background-image: none;
+    border-color: #605ca8;
+}
+.main-content .card {
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,.04) 0 2px 6px 0;
+}
+
+.main-content .card .card-title {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.card-price {
+    color: orange;
+    font-weight: bold;
+}
+.registration .container h2 {
+    font-weight: normal;
+    font-size: 1.5em;
+}
+.registration .container .row a {
+    width: 50%;
+    margin-top: 8px;
+    background-color: #605ca8;
+    border-color: #605ca8;
+}
+.registration .container form button {
+    background-color: #605ca8;
+    border-color: #605ca8;
+}
+.page-link {
+    color: #605ca8;
+}
+.page-link:hover {
+    color: #605ca8;
+}
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #605ca8;
+    border-color: #605ca8;
+}
